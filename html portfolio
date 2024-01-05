@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css portfolio.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cointainer{
+            position:relative;
+            text-align: center;
+            color: white;
+        }
+        .centered{
+            position: absolute;
+            top:50%;
+            left: 50%;
+            font-size: 85px;
+            transform: translate(-50%,-50%)
+        }
+    </style>
+</head>
+<body bgcolor="beige">
+    <header class="cointainer">
+        <img src="c:\Users\ganga\OneDrive\Desktop\1704436848796.png"  width="1500" height="500" style="border: 3px solid #000000;">
+        <div class="centered">GANGA SREE</div> 
+    </header>
+    <section>
+        <div class="topnav">
+            <a class="active" herf="#Aboutme">About me</a>
+            <a herf="#skills">Skills</a>
+            <a herf="#certificates">Certificates</a>
+            <a herf="#projects">Projects</a>
+            <a herf="#contest">Contest</a>
+            <a herf="#contact">Contact</a>
+        </div>
+
+    </section>
+    <br>
+    <section backgroundcolor="pink">
+        <h2><u><b>
+            About me
+        </h2></u></b>
+        <p> <h2>Hey all I'm Ganga Sree.</h2> </p>
+        <h3> I'm currently studing B.E CSE at sri eshwar college of Engineering .I have a interset in coding and i love exploring about new things! </h3>
+    </section>
+    <br>
+    <section>
+        <h2> <u>Skills</u > </h2>
+        <ol>
+           <h3> <li>HTML</li>
+            <li>CSS</li>
+            <li>Python</li>
+            <li>C programing</li> </h3>
+        </ol>
+    </section>
+    <section>
+        <h2>
+           <u> Certificates </u>
+        </h2>
+        <ol>
+            <h3><li>C programing for beginners-Master the language</li>
+            <li>Diplomo in c language</li></h3>
+        </ol>
+    </section>
+    <section>
+        <h2> <u>Projects</u></h2>
+        <ul>
+          <h3>  <li>
+                Bus reservation system
+            </li>
+            <li> electricity bill calculator</li></h3>
+        </ul>
+    </section>
+    <section>
+        <footer class="contact" bgcolor="lightblue"> 
+        <h2> <u>Contact</u></h2>
+      <h3> <p>Phone:8892471465</p>
+         <p>  Mail:gangasree05@gmail.com </p>
+          <p> linked in:gangasree05 
+        </p> </h3></footer>
+
+    </section>
+</body>
+</html>
